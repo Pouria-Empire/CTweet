@@ -1,0 +1,12 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 8C10-51F8
+
+ Directory of C:\project\server\cmake-build-debug\users
+
+02/11/2021  12:57 PM               102 pouria.user.json
+01/08/2021  05:06 PM               127 poya.user.json
+               2 File(s)            229 bytes
+
+     Total Files Listed:
+               2 File(s)            229 bytes
+               0 Dir(s)  39,940,247,552 bytes free
