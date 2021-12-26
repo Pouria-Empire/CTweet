@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.16)
+project(server C)
+link_libraries(ws2_32)
+set(CMAKE_C_STANDARD 99)
+
+add_executable(server main.c cJSON.c slre.c)
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} ${GCC_COVERAGE_LINK_FLAGS} -static")
+add_link_options("Tdelay.h")
+add_link_options("regexes.h")
+add_link_options("cJSON.h")
+add_link_options("slre.h")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} ${GCC_COVERAGE_LINK_FLAGS} -static -lws2_32")
